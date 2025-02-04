@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    background-color: #0d1224;
+    color: #fff;
+    cursor: url('img/lollegacy.cur'), auto;
+  }
+
+  .header-bg {
+    background-image: url("img/worlds-header.png");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  header {
+    background-color: rgba(26, 26, 26, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+  }
+
+  main {
+    position: relative;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+
+  #background-video {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100vw;
+  height: 100vh; 
+  object-fit: cover; 
+  z-index: -1;
+}
+
+
+  .content-overlay {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(13, 18, 36, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+
+  .ticket-section {
+    background-color: #222f5b;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .buy-btn {
+    background-color: #946b2d;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 1rem 0;
+    
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .buy-btn:hover {
+    background-color: #b58335;
+  }
+
+  .section-title {
+    font-size: 2.5rem;
+    color: #946b2d;
+    text-align: center;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+
+  .card {
+    background-color: #222f5b;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    perspective: 1000px;
+    height: 300px;
+  }
+
+  .card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card-front,
+  .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .card-front {
+    background-size: cover;
+    background-position: center;
+  }
+
+  .card-front::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+
+  .card-front h3 {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+  }
+
+  .card-back {
+    background-color: #0e1a40;
+    color: #946b2d;
+    transform: rotateY(180deg);
+    z-index:2;
+  }
+
+  #card-teams .card-front {
+    background-image: url("img/blg-worlds2024.png");
+  }
+  #card-format .card-front {
+    background-image: url("img/600px-T1_Faker_Worlds_2024.jpg");
+  }
+  #card-prize .card-front {
+    background-image: url("img/worlds-cup.png");
+  }
+  #card-experience .card-front {
+    background-image: url("img/worlds-crowd.png");
+  }
+
+  footer {
+    background-color: #0e1a40;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal-content {
+    background-color: #222f5b;
+    color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #946b2d;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+  }
+
+  .close {
+    color: #946b2d;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #b58335;
+    text-decoration: none;
+    
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #946b2d;
+    background-color: #0e1a40;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  form button {
+    background-color: #946b2d;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  form button:hover {
+    background-color: #b58335;
+  }
+
+  #countdown {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #946b2d;
+  }
