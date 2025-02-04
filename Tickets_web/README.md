@@ -1,4 +1,4 @@
-# Final LoL World Championship 2024
+# Tickets_web
 
 This webpage is dedicated to the League of Legends World Championship 2024 Final. It includes a countdown to the event, details about the match, ticket information, and much more.
 
