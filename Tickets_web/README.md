@@ -1,46 +1,31 @@
-# ⌨️ Hello, I'm Anabel! 👩🏻‍💻
+# Final LoL World Championship 2024
 
-### About Me
-I'm a passionate **future developer** from **Spain** with a deep love for **technology**, **video games**, and **languages**. Currently, I’m studying **Web Development** and specializing in **backend technologies**, drawing from my background in **Translation and Interpretation** (English, German, and some Italian), with a focus on **video game and software localization**.
+This webpage is dedicated to the League of Legends World Championship 2024 Final. It includes a countdown to the event, details about the match, ticket information, and much more.
 
-I grew up building PCs, playing video games, and exploring how things work behind the scenes. Now, I’m channeling that curiosity into **programming**.
+## Features
 
----
+- **Event Countdown**: A real-time countdown to the final event on November 2, 2024, 14:00.
+- **Ticket Purchase**: Users can "purchase tickets" for the event (simulated with a form).
+- **Event Information**: Details about the finalists, format, prizes, and experience at the event.
+- **Background Video**: A promotional video embedded as a background.
+  
+## Technologies Used
 
-### 🚀 Skills & Technologies
+- **HTML**: Structure of the page.
+- **CSS**: Styles for the page layout and visual elements.
+- **JavaScript**: For countdown functionality, modal interaction, and form submission simulation.
+- **Video**: Embeds an event-related video that plays in the background.
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-</div>
+## How to Run
 
----
-###
+1. Clone the repository to your local machine.
+2. Open `index.html` in a web browser to access the webpage.
+3. View the event countdown, explore event details, and "purchase tickets".
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rachni&theme=dracula&layout=compact" alt="Top Langs">
-</p>
+## Demo
 
+You can view the live demo of the event page here: [Final LoL World Championship 2024 Demo](https://rachni.github.io/practice-webpages/Tickets_web/)
 
-###
+## License
 
-
----
-
-### 🌍 Connect With Me
-[![GitHub followers](https://img.shields.io/github/followers/Rachni?style=flat-square&logo=github)](https://github.com/Rachni)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/anabelmarper/)
-[![Email](https://img.shields.io/badge/Email-%23D14836.svg?style=flat-square&logo=gmail&logoColor=white)](mailto:anamartinezperdomo@gmail.com)
-
----
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
