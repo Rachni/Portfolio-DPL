@@ -24,16 +24,6 @@ styles.css
 images/  
 └── (champion images)
 
-## 📋 How to Use
-
-1. Clone the repository:  
-   git clone https://github.com/rachni/practice-webpages.git
-
-2. Navigate to the project folder:  
-   cd practice-webpages/Campeones_lol
-
-3. Open `index.html` in your preferred browser.
-
 ## ⚡ Future Improvements
 
 - Add champion abilities or stats.
